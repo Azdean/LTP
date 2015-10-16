@@ -34,25 +34,30 @@ nav li {
     cursor: pointer; }
 
 .main {
-  width: 75%;
+  width: 80%;
+  min-width: 40em;
   height: 50em;
   display: block;
   margin: 0 auto;
   background-color: #fafafa;
   padding-top: 3em; }
 
-.table-head {
+#main-table {
   width: 100%;
-  height: 10em;
-  background-color: #e8eaf6; }
+  height: auto;
+  border-collapse: collapse; }
 
-.table-column {
-  width: 100%;
-  height: 10em; }
+tr {
+  height: 8em;
+  width: 100%; }
 
-.img-container {
+td, th {
+  padding: 1.5em;
+  width: 20%;
   height: 100%;
-  width: 15em;
-  background-color: #3f51b5; }
+  border: 2px solid #e8eaf6; }
+
+tr:nth-child(odd) {
+  background-color: #e8eaf6; }
 
 /*# sourceMappingURL=styles.css.map */

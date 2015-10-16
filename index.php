@@ -11,6 +11,7 @@
 	<title>LTP: Lung Treatment Plan</title>
 	<link rel="stylesheet" type="text/css" href="./src/style/styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'></head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <body>
 	<header>
 		<h1>LTP</h1>
@@ -25,16 +26,55 @@
 	</nav>
 
 	<section class="main">
-		<section class="table">
+		<table id="main-table">
+			<tr id="table-header">
+				<th>Shape</th>
+				<th>Morning</th>
+				<th>Mid Day</th>
+				<th>Evening</th>
+				<th>Night</th>
+			</tr>
 
-			<div class="table-head">
-			</div>
+			<tr>
+				<td>a</td>
+				<td>b</td>
+				<td>c</td>
+				<td>d</td>
+				<td>e</td>
+			</tr>
 
-			<div class="table-column">
-				<div class="img-container"></div>
-			</div>
+			<tr>
+				<td>a</td>
+				<td>b</td>
+				<td>c</td>
+				<td>d</td>
+				<td>e</td>
+			</tr>
 
-		</section>
+			<tr>
+				<td>a</td>
+				<td>b</td>
+				<td>c</td>
+				<td>d</td>
+				<td>e</td>
+			</tr>
+
+			<tr>
+				<td>a</td>
+				<td>b</td>
+				<td>c</td>
+				<td>d</td>
+				<td>e</td>
+			</tr>
+
+			<tr>
+				<td>a</td>
+				<td>b</td>
+				<td>c</td>
+				<td>d</td>
+				<td>e</td>
+			</tr>
+		</table>
 	</section>
 
 </body>
