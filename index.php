@@ -18,11 +18,11 @@
 	</header>
 
 	<nav>
-	<li>Column One</li>
-	<li>Column Two</li>
-	<li>Column Three</li>
-	<li>Column Four</li>
-	<li>Column Five</li>
+	<li id="column-one" data-type='{"type":"A"}'>Column One</li>
+	<li id="column-two" data-type='{"type":"B"}'>Column Two</li>
+	<li id="column-three" data-type='{"type":"C"}'>Column Three</li>
+	<li id="column-four" data-type='{"type":"D"}'>Column Four</li>
+	<li id="column-five" data-type='{"type":"E"}'>Column Five</li>
 	</nav>
 
 	<section class="main">
@@ -35,7 +35,7 @@
 				<th>Night</th>
 			</tr>
 
-			<tr>
+			<tr id="A">
 				<td>a</td>
 				<td>b</td>
 				<td>c</td>
@@ -43,39 +43,10 @@
 				<td>e</td>
 			</tr>
 
-			<tr>
-				<td>a</td>
-				<td>b</td>
-				<td>c</td>
-				<td>d</td>
-				<td>e</td>
-			</tr>
-
-			<tr>
-				<td>a</td>
-				<td>b</td>
-				<td>c</td>
-				<td>d</td>
-				<td>e</td>
-			</tr>
-
-			<tr>
-				<td>a</td>
-				<td>b</td>
-				<td>c</td>
-				<td>d</td>
-				<td>e</td>
-			</tr>
-
-			<tr>
-				<td>a</td>
-				<td>b</td>
-				<td>c</td>
-				<td>d</td>
-				<td>e</td>
-			</tr>
 		</table>
 	</section>
 
+
+<script src="./src/lib/LTP.js"></script>
 </body>
 </html>
