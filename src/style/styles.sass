@@ -29,15 +29,20 @@ nav
 	background-color: $paleindigo
 
 nav li
-	display: inline-block
+	float: left
 	height: 3em
 	width: 5em
 	padding: 0.5em 2em 0.5em 2em
 	color: $indigo
+	list-style-type: none
 	&:hover
 		background-color: $indigo
 		color: $offwhite
 		cursor: pointer
+
+.selected
+	background-color: $indigo
+	color: $paleindigo
 
 .main
 	width: 80%

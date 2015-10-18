@@ -24,15 +24,20 @@ nav {
   background-color: #e8eaf6; }
 
 nav li {
-  display: inline-block;
+  float: left;
   height: 3em;
   width: 5em;
   padding: 0.5em 2em 0.5em 2em;
-  color: #3f51b5; }
+  color: #3f51b5;
+  list-style-type: none; }
   nav li:hover {
     background-color: #3f51b5;
     color: #fafafa;
     cursor: pointer; }
+
+.selected {
+  background-color: #3f51b5;
+  color: #e8eaf6; }
 
 .main {
   width: 80%;

@@ -18,30 +18,25 @@
 	</header>
 
 	<nav>
-	<li id="column-one" data-type='{"type":"A"}'>Column One</li>
-	<li id="column-two" data-type='{"type":"B"}'>Column Two</li>
-	<li id="column-three" data-type='{"type":"C"}'>Column Three</li>
-	<li id="column-four" data-type='{"type":"D"}'>Column Four</li>
-	<li id="column-five" data-type='{"type":"E"}'>Column Five</li>
+	<li id="column-one" data-type='{"type":"A"}'>Column A</li>
+	<li id="column-two" data-type='{"type":"B"}'>Column B</li>
+	<li id="column-three" data-type='{"type":"C"}'>Column C</li>
+	<li id="column-four" data-type='{"type":"D"}'>Column D</li>
+	<li id="column-five" data-type='{"type":"E"}'>Column E</li>
 	</nav>
 
 	<section class="main">
 		<table id="main-table">
 			<tr id="table-header">
-				<th>Shape</th>
+				<th>Letter</th>
 				<th>Morning</th>
 				<th>Mid Day</th>
 				<th>Evening</th>
 				<th>Night</th>
 			</tr>
 
-			<tr id="A">
-				<td>a</td>
-				<td>b</td>
-				<td>c</td>
-				<td>d</td>
-				<td>e</td>
-			</tr>
+
+			
 
 		</table>
 	</section>
