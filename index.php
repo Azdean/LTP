@@ -18,12 +18,16 @@
 	</header>
 
 	<nav>
-	<li id="column-one" data-type='{"type":"A"}'>Column A</li>
-	<li id="column-two" data-type='{"type":"B"}'>Column B</li>
-	<li id="column-three" data-type='{"type":"C"}'>Column C</li>
-	<li id="column-four" data-type='{"type":"D"}'>Column D</li>
-	<li id="column-five" data-type='{"type":"E"}'>Column E</li>
+		<li id="add-btn">+</li>
 	</nav>
+
+	<section id="config">
+		<div class="wrapper">
+			<section id="config-shape" class="config-window"></section>
+			<section id-"config-colour" class="config-window"></section>
+			<button id="config-submit">Add</button>
+		</div>
+	</section>
 
 	<section class="main">
 		<table id="main-table">
@@ -33,15 +37,11 @@
 				<th>Mid Day</th>
 				<th>Evening</th>
 				<th>Night</th>
-			</tr>
-
-
-			
-
+			</tr>	
 		</table>
 	</section>
 
-
+<script src="./src/lib/ui.js"></script>
 <script src="./src/lib/LTP.js"></script>
 </body>
 </html>
