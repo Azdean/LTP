@@ -1,8 +1,8 @@
 <!-- -
-- Lung Treatment Plan v0.1 
+- Lung Treatment Plan v0.1
 - Author: Azdean Samih
 - Mission: Create a simple website that can be used by nurses and doctors to produce a simple
-- text free treatment plan to assist patients with poor sight or literacy ability. 
+- text free treatment plan to assist patients with poor sight or literacy ability.
 -->
 
 <!DOCTYPE html>
@@ -24,7 +24,7 @@
 	<section id="config">
 		<div class="wrapper">
 			<section id="config-shape" class="config-window"></section>
-			<section id-"config-colour" class="config-window"></section>
+			<section id="config-colour" class="config-window"></section>
 			<button id="config-submit">Add</button>
 		</div>
 	</section>
@@ -37,10 +37,11 @@
 				<th>Mid Day</th>
 				<th>Evening</th>
 				<th>Night</th>
-			</tr>	
+			</tr>
 		</table>
 	</section>
 
+<script src="./src/lib/options.js"></script>
 <script src="./src/lib/ui.js"></script>
 <script src="./src/lib/LTP.js"></script>
 </body>

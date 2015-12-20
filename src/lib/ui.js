@@ -9,3 +9,17 @@ function navListener(){
 		}
 	});
 }
+
+// Loads in options from inhaler and colour arrays.
+function optionsLoader(){
+	var colourWindow = jQuery('#config-colour'),
+			shapeWindow = jQuery('#config-shape');
+
+	jQuery(colour).each(function(index){
+		colourWindow.append('<div id="'+colour[index]+'" class="option"></div>');
+	});
+
+	jQuery(shape).each(function(index){
+			shapeWindow.append('<div id="'+shape[index]+'" class="option"></div>');
+	});
+}
