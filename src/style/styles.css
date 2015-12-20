@@ -16,6 +16,10 @@ body {
   margin: auto;
   overflow: hidden; }
 
+.selected {
+  border: 1px solid #e8eaf6;
+  padding: 0 !important; }
+
 header {
   width: 100%;
   height: 5em;
@@ -76,10 +80,6 @@ td, th {
   height: 100%;
   border: 2px solid #e8eaf6; }
 
-.selected {
-  background-color: #3f51b5;
-  color: #e8eaf6; }
-
 tr:nth-child(even) {
   background-color: #e8eaf6; }
 
@@ -116,10 +116,19 @@ tr:nth-child(even) {
     cursor: pointer; }
 
 .option {
-  height: 4em;
-  width: 4em;
+  height: 4rem;
+  width: 4rem;
+  padding: 1px;
   background-color: #3f51b5;
   display: inline-block;
-  margin: 0.5em 0em 0 0.5em; }
+  margin: 0.5em 0em 0.5em 0.5em;
+  color: #fafafa;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Open Sans", sans-serif;
+  line-height: 4rem;
+  vertical-align: middle; }
+  .option:hover {
+    cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,14 +1,14 @@
 /*
-Error: Undefined variable: "$indigo".
+Error: Undefined variable: "$paleindigo".
         on line 2 of style/config_window.sass
 
-1: .selected
-2: 	background-color: $indigo
-3: 	color: $paleindigo
-4: 
-5: tr:nth-child(even)
-6: 	background-color: $paleindigo
-7: 
+1: tr:nth-child(even)
+2: 	background-color: $paleindigo
+3: 
+4: #config
+5: 	width: 100%
+6: 	height: 0
+7: 	background-color: $gunmetal
 
 Backtrace:
 style/config_window.sass:2
@@ -63,4 +63,4 @@ style/config_window.sass:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$indigo\".\A         on line 2 of style/config_window.sass\A \A 1: .selected\A 2: 	background-color: $indigo\A 3: 	color: $paleindigo\A 4: \A 5: tr:nth-child(even)\A 6: 	background-color: $paleindigo\A 7: "; }
+  content: "Error: Undefined variable: \"$paleindigo\".\A         on line 2 of style/config_window.sass\A \A 1: tr:nth-child(even)\A 2: 	background-color: $paleindigo\A 3: \A 4: #config\A 5: 	width: 100%\A 6: 	height: 0\A 7: 	background-color: $gunmetal"; }
