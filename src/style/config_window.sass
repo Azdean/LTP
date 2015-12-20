@@ -1,0 +1,37 @@
+.selected
+	background-color: $indigo
+	color: $paleindigo
+
+tr:nth-child(even)
+	background-color: $paleindigo
+
+#config
+	width: 100%
+	height: 0
+	background-color: $gunmetal
+	transition: height 0.40s ease-out
+
+.config-window
+	height: 12em
+	width: 25%
+	float: left
+	margin: 1.5em 0 0 2em
+	border: 1px dotted $paleindigo
+
+.config-window:after
+	content: ''
+	clear: both
+	display: block
+
+#config-submit
+	width: 7rem
+	height: 3rem
+	float: left
+	margin: 10.5rem 0 1.5rem 1rem
+	background-color: $green
+	border: 0
+	font: 110%
+	color: $paleindigo
+	&:hover
+		background-color: $lightgreen
+		cursor: pointer

@@ -46,10 +46,6 @@ nav li {
   #add-btn:hover {
     background-color: #5c6bc0; }
 
-.selected {
-  background-color: #3f51b5;
-  color: #e8eaf6; }
-
 .main {
   width: 80%;
   min-width: 40em;
@@ -74,6 +70,10 @@ td, th {
   height: 100%;
   border: 2px solid #e8eaf6; }
 
+.selected {
+  background-color: #3f51b5;
+  color: #e8eaf6; }
+
 tr:nth-child(even) {
   background-color: #e8eaf6; }
 
@@ -83,15 +83,9 @@ tr:nth-child(even) {
   background-color: #212121;
   transition: height 0.4s ease-out; }
 
-.wrapper {
-  width: 80%;
-  height: 100%;
-  margin: auto;
-  overflow: hidden; }
-
 .config-window {
   height: 12em;
-  width: 40em;
+  width: 25%;
   float: left;
   margin: 1.5em 0 0 2em;
   border: 1px dotted #e8eaf6; }
@@ -113,5 +107,11 @@ tr:nth-child(even) {
   #config-submit:hover {
     background-color: #66bb6a;
     cursor: pointer; }
+
+.wrapper {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden; }
 
 /*# sourceMappingURL=styles.css.map */
