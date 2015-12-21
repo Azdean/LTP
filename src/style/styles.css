@@ -10,12 +10,6 @@
 body {
   background-color: #fafafa; }
 
-.wrapper {
-  width: 80%;
-  height: 100%;
-  margin: auto;
-  overflow: hidden; }
-
 .selected {
   border: 1px solid #e8eaf6;
   padding: 0 !important; }
@@ -80,6 +74,12 @@ td, th {
   height: 100%;
   border: 2px solid #e8eaf6; }
 
+.wrapper {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden; }
+
 tr:nth-child(even) {
   background-color: #e8eaf6; }
 
@@ -91,7 +91,7 @@ tr:nth-child(even) {
 
 .config-window {
   height: 12em;
-  width: 25%;
+  width: 40%;
   float: left;
   margin: 1.5em 0 0 2em;
   border: 1px dotted #e8eaf6;
@@ -103,7 +103,7 @@ tr:nth-child(even) {
   display: block; }
 
 #config-submit {
-  width: 7rem;
+  width: 5rem;
   height: 3rem;
   float: left;
   margin: 10.5rem 0 1.5rem 1rem;

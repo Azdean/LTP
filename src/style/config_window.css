@@ -1,17 +1,21 @@
 /*
 Error: Undefined variable: "$paleindigo".
-        on line 2 of style/config_window.sass
+        on line 8 of style/config_window.sass
 
-1: tr:nth-child(even)
-2: 	background-color: $paleindigo
-3: 
-4: #config
-5: 	width: 100%
-6: 	height: 0
-7: 	background-color: $gunmetal
+3: 	height: 100%
+4: 	margin: auto
+5: 	overflow: hidden
+6: 
+7: tr:nth-child(even)
+8: 	background-color: $paleindigo
+9: 
+10: #config
+11: 	width: 100%
+12: 	height: 0
+13: 	background-color: $gunmetal
 
 Backtrace:
-style/config_window.sass:2
+style/config_window.sass:8
 /var/lib/gems/1.9.1/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 /var/lib/gems/1.9.1/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 /var/lib/gems/1.9.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -63,4 +67,4 @@ style/config_window.sass:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$paleindigo\".\A         on line 2 of style/config_window.sass\A \A 1: tr:nth-child(even)\A 2: 	background-color: $paleindigo\A 3: \A 4: #config\A 5: 	width: 100%\A 6: 	height: 0\A 7: 	background-color: $gunmetal"; }
+  content: "Error: Undefined variable: \"$paleindigo\".\A         on line 8 of style/config_window.sass\A \A 3: 	height: 100%\A 4: 	margin: auto\A 5: 	overflow: hidden\A 6: \A 7: tr:nth-child(even)\A 8: 	background-color: $paleindigo\A 9: \A 10: #config\A 11: 	width: 100%\A 12: 	height: 0\A 13: 	background-color: $gunmetal"; }

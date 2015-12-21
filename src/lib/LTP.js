@@ -1,31 +1,32 @@
-function FTP_init() {
-	navListener();
-	optionsLoader();
+var newObject = [];
+
+function loadFTP() {
+	loadUI();
 }
 
-// function column_toggle(type){
-// 	if(jQuery('#' + type).length){
-// 		jQuery('#' + type).remove();
-// 	} else {
-// 		jQuery('#main-table').append("<tr id='"+type+"'></tr>");
-// 		jQuery('#' + type).append("<td>"+type+"</td>");
-// 		for (var i=0; i < 4; i++) {
-// 			jQuery('#' + type).append("<td id='"+type+(i+1)+"'></td>");
-// 		};
-// 		clicker(type);
-// 	}
-// }
-//
-// function clicker(type) {
-// 	for(var i = 0; i < 5; i++){
-// 		jQuery('#' + type + i).click(function(){
-// 			if(jQuery(this).text() === "XXX"){
-// 				jQuery(this).empty();
-// 			}else{
-// 				jQuery(this).append("X");
-// 			}
-// 		});
-// 	}
-// }
+function addColumn(){
+	if(!newObject.length){
+		return false;
+	}
+	jQuery('#main-table').append("<tr id='"+newObject[1]+'-'+newObject[0]+"'></tr>");
+	jQuery('#' + newObject[1]+'-'+newObject[0]).append("<td>"+newObject[1]+'-'+newObject[0]+"</td>");
 
-window.onload = FTP_init;
+	for (var i=0; i < 4; i++) {
+		jQuery('#' + newObject[1]+'-'+newObject[0]).append("<td id='"+newObject[1]+'-'+newObject[0]+(i+1)+"'></td>");
+	};
+	clicker(newObject[1]+'-'+newObject[0]);
+}
+
+function clicker(type) {
+	for(var i = 0; i < 5; i++){
+		jQuery('#' + type + i).click(function(){
+			if(jQuery(this).text() === "XXX"){
+				jQuery(this).empty();
+			}else{
+				jQuery(this).append("X");
+			}
+		});
+	}
+}
+
+window.onload = loadFTP;

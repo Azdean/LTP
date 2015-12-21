@@ -23,8 +23,8 @@
 
 	<section id="config">
 		<div class="wrapper">
-			<section id="config-shape" class="config-window"></section>
 			<section id="config-colour" class="config-window"></section>
+			<section id="config-shape" class="config-window"></section>
 			<button id="config-submit">Add</button>
 		</div>
 	</section>
@@ -32,7 +32,7 @@
 	<section class="main">
 		<table id="main-table">
 			<tr id="table-header">
-				<th>Letter</th>
+				<th>Inhaler</th>
 				<th>Morning</th>
 				<th>Mid Day</th>
 				<th>Evening</th>

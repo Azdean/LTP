@@ -1,4 +1,10 @@
-function navListener(){
+function loadUI(){
+	optionsLoader();
+	binder();
+}
+
+function binder(){
+	// Bind Menu drop down button
 	jQuery('#add-btn').click(function(){
 		var configBox = jQuery('#config');
 
@@ -7,6 +13,11 @@ function navListener(){
 		} else {
 			configBox.css('height','15em');
 		}
+	});
+
+	// Bind config window add button
+	jQuery('#config-submit').click(function(){
+		addColumn();
 	});
 }
 
@@ -22,27 +33,20 @@ function optionsLoader(){
 				 jQuery('#config-colour div').each(function(){
 					 jQuery(this).removeClass('selected');
 				 });
-
-
-					jQuery(this).addClass('selected');
-
-					// Code to pass value on will go here
-
+				jQuery(this).addClass('selected');
+				newObject[1] = jQuery(this).attr('id');
 			});
 	}
 
-jQuery(shape).each(function(index){
-	shapeWindow.append('<div id="'+shape[index]+'" class="option">'+shape[index].slice(0,1).toUpperCase()+'</div>');
+	jQuery(shape).each(function(index){
+		shapeWindow.append('<div id="'+shape[index]+'" class="option">'+shape[index].slice(0,1).toUpperCase()+'</div>');
 
-	jQuery('#'+shape[index]).click(function(){
+		jQuery('#'+shape[index]).click(function(){
 		 jQuery('#config-shape div').each(function(){
 			 jQuery(this).removeClass('selected');
 		 });
-
-
-			jQuery(this).addClass('selected');
-
-			// Code to pass value on will go here
+		jQuery(this).addClass('selected');
+		newObject[0] = shape[index];
 		});
 	});
 }
