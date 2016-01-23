@@ -14,7 +14,7 @@
 		<h1>LTP</h1>
 	</header>
 
-	<nav>
+	<!-- <nav>
 		<li id="add-btn">+</li>
 	</nav>
 
@@ -24,7 +24,11 @@
 			<section id="config-shape" class="config-window"></section>
 			<button id="config-submit">Add</button>
 		</div>
-	</section>
+	</section> -->
+
+<aside id="inputArea">
+	<div id="inputTitle"><form id="nameInput"><input type="text" id="nodeName" placeholder="Add a task." /></form><img id="addNode" src="src/img/add.svg"></img></div>
+</aside>
 
 	<section class="main">
 		<table id="main-table">
@@ -37,10 +41,6 @@
 			</tr>
 		</table>
 	</section>
-
-<script src="./src/lib/options.js"></script>
-<script src="./src/lib/ui.js"></script>
-<script src="./src/lib/LTP.js"></script>
 </body>
 
 <?php

@@ -51,13 +51,12 @@ nav li {
     background-color: #5c6bc0; }
 
 .main {
-  width: 80%;
+  width: 75%;
   min-width: 40em;
   height: 50em;
-  display: block;
-  margin: 0 auto;
+  float: left;
   background-color: #fafafa;
-  padding-top: 3em; }
+  padding: 3em 0 0 3em; }
 
 #main-table {
   width: 100%;
@@ -130,5 +129,89 @@ tr:nth-child(even) {
   vertical-align: middle; }
   .option:hover {
     cursor: pointer; }
+
+#nodeName {
+  height: 1em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  width: 10em;
+  margin: 0.5em 0 0 0.5em;
+  border: 1px solid #999;
+  border-radius: 5px;
+  float: left; }
+
+#inputTitle {
+  display: inline-block;
+  height: 3em;
+  width: 100%;
+  background-color: #3f51b5; }
+
+.input input {
+  height: 1em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  width: 15em;
+  margin: 0 0 0 1em;
+  border: 1px solid #999;
+  border-radius: 5px; }
+
+.node select {
+  height: 2em;
+  width: 15em;
+  margin: 0 0 0 1em; }
+
+.input input:focus {
+  border-color: #3f51b5; }
+
+.input input:hover {
+  border-color: #3f51b5; }
+
+.input label {
+  font-size: 105%;
+  font-weight: 300;
+  margin: 0 0 0 1em; }
+
+#addNode {
+  height: 2em;
+  width: 2em;
+  float: right;
+  padding: 0.5em;
+  background-color: #303f9f; }
+
+#addNode:hover {
+  background-color: #3f51b5; }
+
+.input {
+  height: 2em;
+  width: 100%;
+  padding: 0.5em 0 0.5em 0; }
+
+#inputArea {
+  width: 20%;
+  max-width: 15em;
+  float: left; }
+
+.node {
+  height: 3em;
+  margin: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+  border-bottom: 1px dotted #3f51b5; }
+
+.nodeTitle:hover {
+  background-color: #3f51b5; }
+
+.nodeTitle {
+  padding: 1em 0 1em 0; }
+
+.nodeTitle h1 {
+  display: inline;
+  margin: 0 0 0 1em; }
+
+.nodeTitle p {
+  display: inline-block;
+  float: right;
+  margin: 0 1em 0 0;
+  font-size: 90%;
+  cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */
