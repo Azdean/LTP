@@ -5,13 +5,10 @@
 - text free treatment plan to assist patients with poor sight or literacy ability.
 -->
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>LTP: Lung Treatment Plan</title>
-	<link rel="stylesheet" type="text/css" href="./src/style/styles.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'></head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<?php
+	include 'src/framework/header.php';
+?>
+
 <body>
 	<header>
 		<h1>LTP</h1>
@@ -45,4 +42,7 @@
 <script src="./src/lib/ui.js"></script>
 <script src="./src/lib/LTP.js"></script>
 </body>
-</html>
+
+<?php
+	include 'src/framework/footer.php';
+?>
