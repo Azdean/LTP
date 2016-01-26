@@ -1,8 +1,14 @@
+/*
+	Constructor
+*/
 function loadUI(){
 	optionsLoader();
 	binder();
 }
 
+/*
+	Binds event listeners to ui elements
+*/
 function binder(){
 	// Bind Menu drop down button
 	jQuery('#add-btn').click(function(){
@@ -17,11 +23,13 @@ function binder(){
 
 	// Bind config window add button
 	jQuery('#config-submit').click(function(){
-		addColumn();
+		addItem();
 	});
 }
 
-// Loads in options from inhaler and colour arrays.
+/*
+ Loads in options from inhaler and colour arrays.
+*/
 function optionsLoader(){
 	var colourWindow = jQuery('#config-colour'),
 			shapeWindow = jQuery('#config-shape');
