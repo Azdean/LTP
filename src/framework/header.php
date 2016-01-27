@@ -12,8 +12,4 @@
 	<link rel="stylesheet" type="text/css" href="./src/style/styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'></head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="./src/lib/options.js"></script>
-	<script src="./src/lib/ltp.js"></script>
-	<!--<script src="./src/lib/ui.js"></script>
-	<script src="./src/lib/LTP.js"></script>-->
 </head>
