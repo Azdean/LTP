@@ -1,5 +1,3 @@
-var table = new table_builder();
-
 function table_builder(){
 
   this.iterate = function(){
@@ -31,10 +29,22 @@ function table_builder(){
           cell.append("X");
         }
       });
-
     };
+      this.column_ids.push(this.id);
+  };
+
+  this.remove_column = function(id){
+    if(jQuery.inArray(id, this.column_ids) > -1){
+      jQuery('#'+id).remove();
+      this.column_ids.splice(this.column_ids.indexOf(id),1);
+    }
+  };
+
+  this.show_id = function(){
+    return this.column_ids;
   };
 
   this.table = jQuery('#main-table');
   this.iterator = 0;
+  this.column_ids = [];
 }

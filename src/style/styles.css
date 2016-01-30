@@ -22,6 +22,7 @@ body {
 
 .selected {
   border: 1px solid #e8eaf6;
+  opacity: 1 !important;
   padding: 0 !important; }
 
 header {
@@ -62,7 +63,8 @@ nav li {
   padding: 1rem 1.25rem 0.5rem 1rem;
   position: absolute; }
   #add-btn:hover {
-    background-color: #5c6bc0; }
+    background-color: #5c6bc0;
+    cursor: pointer; }
 
 .main {
   width: 75%;
@@ -140,7 +142,8 @@ tr:nth-child(even) {
   font-size: 2em;
   font-family: "Open Sans", sans-serif;
   line-height: 4rem;
-  vertical-align: middle; }
+  vertical-align: middle;
+  opacity: 0.8; }
   .option:hover {
     cursor: pointer; }
 

@@ -80,7 +80,7 @@ function binder(){
 
 	// Bind config window add button
 	jQuery('#config-submit').click(function(){
-		addItem();
+
 	});
 }
 

@@ -38,11 +38,11 @@
 			</tr>
 		</table>
 	</section>
-	<!-- <script src="./src/lib/ltp.js"></script>
-	<script src="./src/lib/options.js"></script> -->
+	<!-- <script src="./src/lib/ltp.js"></script>-->
+	<script src="./src/lib/options.js"></script>
 	<script src="./src/lib/table.js"></script>
-	<!-- <script src="./src/lib/ui.js"></script> -->
-	<!--<script src="./src/lib/LTP.js"></script>-->
+	<script src="./src/lib/ui.js"></script>
+	<script src="./src/lib/ltp.js"></script>
 </body>
 
 <?php
