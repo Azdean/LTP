@@ -6,19 +6,14 @@ function ltp_ui(){
 
 		// Bind Menu drop down button
 		jQuery('#add-btn').click(function(){
-			var configBox = jQuery('#config');
-
-			if(configBox.css('height') === '240px'){
-				configBox.css('height', '');
-			} else {
-				configBox.css('height','15em');
-			}
+			ui.toggle_panel();
 		});
 
 		// Bind config window add button
 		jQuery('#config-submit').click(function(){
 			if(ui.selected_options.colour !== '' && ui.selected_options.shape !== ''){
 				table.add_column(ui.selected_options);
+				ui.toggle_panel();
 				ui.selected_options = {colour:'',shape:''};
 
 				jQuery('#config-colour div').each(function(){
@@ -30,6 +25,16 @@ function ltp_ui(){
 				});
 			}
 		});
+	};
+
+	this.toggle_panel = function(){
+		var configBox = jQuery('#config');
+
+		if(configBox.css('height') === '240px'){
+			configBox.css('height', '');
+		} else {
+			configBox.css('height','15em');
+		}
 	};
 
 	this.load_options = function(){
@@ -63,5 +68,19 @@ function ltp_ui(){
 
 			});
 		});
+	};
+
+	this.add_menu_node = function(id){
+		this.name = id.slice(0, id.length-1).split('-').join(' ');
+		jQuery('nav').append("<li id="+id+'-node'+" class='delete'>"+this.name+"</li>");
+
+		jQuery('#'+id+'-node').click(function(){
+			ui.remove_menu_node(jQuery(this).attr('id'));
+		});
+	};
+
+	this.remove_menu_node = function(id){
+		jQuery('#'+id).remove();
+		table.remove_column(id.split('-node')[0]);
 	};
 }

@@ -53,6 +53,9 @@ nav li {
     background-color: #5c6bc0;
     cursor: pointer; }
 
+.delete:hover {
+  background-color: #C62828; }
+
 #add-btn {
   height: 3rem;
   width: 3rem;

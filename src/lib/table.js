@@ -30,6 +30,7 @@ function table_builder(){
         }
       });
     };
+    	ui.add_menu_node(this.id);
       this.column_ids.push(this.id);
   };
 
