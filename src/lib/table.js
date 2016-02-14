@@ -18,7 +18,7 @@ function table_builder(){
 		jQuery('#'+ this.id).append("<td>"+this.name+"</td>");
 
     for (var i=0; i < 4; i++) {
-  		jQuery('#'+this.id).append("<td id='"+this.id+(i+1)+"'></td>");
+  		jQuery('#'+this.id).append("<td id='"+this.id+(i+1)+"'' class='hover'></td>");
 
       jQuery('#'+this.id+(i+1)).click(function(){
         var cell = jQuery(this);
